@@ -7,11 +7,11 @@ function imageAutoLazyloadHelper(content) {
 	);
 	str = str.replace(
         /src="images\//g,
-		'src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/'
+		'src="https://cdn.jsdelivr.net/gh/being233/hexo-theme-nexmoe@latest/images/'
 	);
 	str = str.replace(
         /\.\.\/\.\.\/images\//g,
-		'https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/'
+		'https://cdn.jsdelivr.net/gh/being233/hexo-theme-nexmoe@latest/images/'
 	);
 	return str;
 }
